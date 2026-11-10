@@ -15,7 +15,7 @@ public abstract class Animal {
     public abstract double calcularCostoConsulta();
 
     // C. Método que todas heredan igual. Ficha que muestra siempre los mismos datos
-    public void mostrarFicha() {
+    public void imprimirFicha() {
         System.out.println("--- FICHA VETERINARIA ---");
         System.out.println("Paciente: " + nombre);
         System.out.println("Edad: " + edad + " años");
